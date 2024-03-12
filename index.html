@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
 </head>
 <body>
     
@@ -19,29 +21,51 @@
                   </div>
                   <div class="slide">
                       <div class="slide_num">2/6</div>
-                      <img src="/imageGallery/images/img_lights_wide.jpg" alt="()" style="width: 100%;">
+                      <img src="/imageGallery/images/img_woods_wide.jpg" style="width: 100%;"> 
                   </div>
                   <div class="slide">
                       <div class="slide_num">3/6</div>
-                      <img src="/imageGallery/images/img_mountains_wide.jpg" alt="()" style="width: 100%;"
+                      <img src="/imageGallery/images/img_5terre_wide.jpg" style="width: 100%;">
                   </div>
                   <div class="slide">
                       <div class="slide_num">4/6</div>
-                      <img src="/imageGallery/images/img_nature_wide.jpg" alt="()" style="width: 100%;">
+                      <img src="/imageGallery/images/img_mountains_wide.jpg" style="width: 100%;">
                   </div>
                   <div class="slide">
                        <div class="slide_num">5/6</div>
-                       <img src="/imageGallery/images/img_snow_wide.jpg" alt="()" style="width: 100%;">
+                       <img src="/imageGallery/images/img_lights_wide.jpg" style="width: 100%;">
                   </div>
                   <div class="slide">
                       <div class="slide_num">6/6</div>
-                      <img src="/imageGallery/images/img_woods_wide.jpg" alt="()" style="width: 100%;">
+                      <img src="/imageGallery/images/img_snow_wide.jpg" style="width: 100%;">
                   </div>
+                  <button class="prev">&#10094;</button> 
+                  <button class="next">&#10095;</button> 
+                  <div class="slide_caption">
+                      <p class="caption">caption</p>
+                  </div>
+                  <div class="active-container">
+                        <div class="active-item">
+                              <img src="/imageGallery/images/activeImages/img_woods.jpg" alt="The woods" style="width: 100%;" id="1">
+                        </div>
+                        <div class="active-item">
+                             <img src="/imageGallery/images/activeImages/img_5terre.jpg" alt="Cinque Terre" style="width: 100%;" id="2">
+                        </div>
+                        <div class="active-item">
+                            <img src="/imageGallery/images/activeImages/img_mountains.jpg" alt="Mountains and fjords" style="width: 100%;" id="3">
+                        </div>
+                        <div class="active-item">
+                             <img src="/imageGallery/images/activeImages/img_lights.jpg" alt="Northern Lights" style="width: 100%;" id="4">
+                        </div>
+                        <div class="active-item">
+                             <img src="/imageGallery/images/activeImages/img_nature.jpg" alt="Nature and sunrise" style="width: 100%;" id="5">
+                        </div>
+                        <div class="active-item">
+                             <img src="/imageGallery/images/activeImages/img_snow.jpg" alt="Snowy Mountains" style="width: 100%;" id="6">
+                        </div>
+            </div>
             </div>
       </div>
-
-
-
     </main>
 </body>
 </html>
